@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TempoSync - BPM to milliseconds</title>
+<meta name="description" content="Tempo to delay times, LFO rates and bar lengths, with tap tempo. Straight, dotted and triplet.">
+<style>
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; background:#121a20; color:#f3ede6; line-height:1.6; }
+  .wrap { max-width:680px; margin:0 auto; padding:48px 20px 60px; }
+  .logo { font-size:46px; font-weight:800; } .logo span { color:#4fd1ff; }
+  .tag { font-size:19px; margin-top:10px; color:#ded5ca; }
+  .cta { display:inline-block; margin-top:26px; background:#4fd1ff; color:#121a20; font-weight:700; padding:14px 30px; border-radius:12px; text-decoration:none; }
+  h2 { font-size:21px; margin:40px 0 10px; } li { color:#b9aea1; margin-bottom:8px; } ul { margin-left:20px; }
+  .demo { margin-top:26px; background:#1b2832; border-radius:14px; padding:18px; } .demo b { color:#4fd1ff; }
+  footer { margin-top:50px; font-size:13px; color:#8c8174; } a { color:#4fd1ff; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="logo">Tempo<span>Sync</span></div>
+  <div class="tag">Set your delay to the beat, not by ear.</div>
+  <a class="cta" href="app.html">Open the app</a>
+  <div class="demo">At 120 BPM a quarter note is <b>500 ms</b>, a dotted eighth is <b>375 ms</b> and an eighth triplet is <b>166.7 ms</b>.</div>
+  <h2>What it does</h2>
+  <ul><li>Every note from 1/1 to 1/32, straight, dotted and triplet, in ms</li><li>LFO rate in Hz and delay length in samples</li><li>Bar length for common time signatures</li><li>Tap tempo and Italian tempo names</li></ul>
+  <footer>Maths is exact. Tempo name ranges are from Wikipedia and overlap on purpose. Static, client-side, nothing stored. <a href="https://github.com/iLanis-agent/temposync">Source</a></footer>
+</div>
+</body>
+</html>
